@@ -1,0 +1,221 @@
+/* button base styles  */
+.base {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+  /* background: red; */
+}
+
+.primary {
+  background: #007bff;
+  color: #fff;
+}
+.secondary {
+  background: #6c757d;
+  color: #fff;
+}
+.success {
+  background: #28a745;
+  color: #fff;
+}
+.warning {
+  background: #ffc107;
+  color: #fff;
+}
+.danger {
+  background: #dc3545;
+  color: #fff;
+}
+.info {
+  background: #17a2b8;
+  color: #fff;
+}
+.light {
+  background: #f8f9fa;
+  color: #212529;
+}
+.dark {
+  background: #343a40;
+  color: #fff;
+}
+.white {
+  background: #fff;
+  color: #212529;
+}
+.black {
+  background: #000;
+  color: #fff;
+}
+.gray {
+  background: #6c757d;
+  color: #fff;
+}
+.muted {
+  background: #f8f9fa;
+  color: #6c757d;
+}
+.transparent {
+  background: transparent;
+  color: #212529;
+}
+
+/* button outline styles */
+.outline {
+  background: transparent;
+  /* color: #007bff; */
+  border: 1px solid;
+}
+.outline.primary {
+  color: #007bff;
+}
+.outline.secondary {
+  color: #6c757d;
+}
+.outline.success {
+  color: #28a745;
+}
+.outline.warning {
+  color: #ffc107;
+}
+.outline.danger {
+  color: #dc3545;
+}
+.outline.info {
+  color: #17a2b8;
+}
+.outline.light {
+  color: #f8f9fa;
+}
+.outline.dark {
+  color: #343a40;
+}
+.outline.white {
+  color: #fff;
+}
+.outline.black {
+  color: #000;
+}
+.outline.gray {
+  color: #6c757d;
+}
+.outline.muted {
+  color: #f8f9fa;
+}
+.outline.transparent {
+  color: #212529;
+}
+/* button hover styles */
+.outline:hover {
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+.outline.primary:hover {
+  background: #0056b3;
+  color: #fff;
+}
+.outline.secondary:hover {
+  background: #5a6268;
+  color: #fff;
+}
+.outline.success:hover {
+  background: #218838;
+  color: #fff;
+}
+.outline.warning:hover {
+  background: #d39e00;
+  color: #fff;
+}
+.outline.danger:hover {
+  background: #c82333;
+  color: #fff;
+}
+
+.text {
+  background: transparent;
+  color: #007bff;
+}
+.text.primary {
+  color: #007bff;
+}
+.text.secondary {
+  color: #6c757d;
+}
+.text.success {
+  color: #28a745;
+}
+.text.warning {
+  color: #ffc107;
+}
+.text.danger {
+  color: #dc3545;
+}
+.text.info {
+  color: #17a2b8;
+}
+.text.light {
+  color: #f8f9fa;
+}
+.text.dark {
+  color: #343a40;
+}
+.text.white {
+  color: #fff;
+}
+.text.black {
+  color: #000;
+}
+.text.gray {
+  color: #6c757d;
+}
+.text.muted {
+  color: #f8f9fa;
+}
+.text.transparent {
+  color: #212529;
+}
+
+/* button size styles */
+.sm {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+}
+.md {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+.lg {
+  font-size: 1.25rem;
+  padding: 0.75rem 1.5rem;
+}
+.xl {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+/* rounded */
+.rounded-none {
+  border-radius: 0rem;
+}
+.rounded-sm {
+  border-radius: 0.2rem;
+}
+.rounded-md {
+  border-radius: 0.5rem;
+}
+.rounded-lg {
+  border-radius: 1.5rem;
+}
+.rounded-xl {
+  border-radius: 2rem;
+}
+.rounded-full {
+  border-radius: 100%;
+}
